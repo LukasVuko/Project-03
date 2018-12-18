@@ -139,9 +139,23 @@ input::-webkit-input-placeholder {
     text-align: right;
 }
 
-
+/* MEDIA QUERIES */
   @media (min-width: 768px) {
-    body {
-        margin: 0 3em;
+    .wrapper {
+        max-width: 1024px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .field-one {
+        width: 65%;
+    }
+
+    .divide {
+        display: flex;
+        padding: .4em;
+    }
+
+    label {
+        flex: 1;
     }
 }
