@@ -1,0 +1,112 @@
+/* Global Layout Setting */
+* { 
+    box-sizing: border-box;
+}
+
+/* Elements */
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #f4f0f0;
+    background: #e75050;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+form {
+    text-align: left;
+}
+
+fieldset,
+button {
+    border: none;
+    margin: 0;
+}
+
+h1 {
+    background: #426f37;
+    margin: 0;
+    padding: 1.2em 0;
+    font-size: 1.5em;
+}
+
+legend {
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+label,
+input {
+    display: inline-block;
+    line-height: 2;
+}
+
+input:active {
+    border: 2px white solid;
+}
+
+textarea {
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.signup {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.signupdiv {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/* Classes */
+
+.p1 {
+    padding-bottom: 1em;
+    border-bottom: 6px double black;
+}
+
+.field-one {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.second-header {
+    margin: 0 .7em;
+}
+
+.divider {
+    border-bottom: 2px double black;
+    margin: .7em;
+}
+/* ID's */
+
+#state {
+    background: #f4f0f0;
+}
+
+
+#zip {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #f4f0f0;
+}
+}
+
+select::after {
+    content: "url(img/arrow.svg";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+
