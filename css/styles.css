@@ -9,7 +9,7 @@ body {
     margin: 0;
     text-align: center;
     color: #f4f0f0;
-    background: #e75050;
+    background: #3da4ab;
     font-family: 'Roboto', sans-serif;
     padding: 0;
 }
@@ -25,7 +25,8 @@ button {
 }
 
 h1 {
-    background: #426f37;
+    background: #f6cd61;
+    color: #817b7b;
     margin: 0;
     padding: 1.2em 0;
     font-size: 1.5em;
@@ -42,6 +43,9 @@ input {
     line-height: 2;
 }
 
+select {
+    color: #817b7b;
+}
 input:active {
     border: 2px white solid;
 }
@@ -50,14 +54,19 @@ textarea {
     width: 100%;
     height: 90px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid #f6cd61
 }
 
 .signup {
     width: 100%;
     height: 50px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid #817b7b;
+    background-color: #f6cd61;
+    color: #817b7b;
+    font-weight: 500;
+    font-size: 1.3em;
+
 }
 
 .signupdiv {
@@ -68,14 +77,15 @@ textarea {
 
 .p1 {
     padding-bottom: 1em;
-    border-bottom: 6px double black;
+    border-bottom: 6px double #817b7b;
 }
 
 .field-one {
     width: 100%;
-    height: 40px;
+    height: 50px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid #f6cd61;
+    padding: 0 1em;
 }
 
 .second-header {
@@ -83,9 +93,15 @@ textarea {
 }
 
 .divider {
-    border-bottom: 2px double black;
+    border-bottom: 2px double #817b7b;
     margin: .7em;
 }
+
+.footer {
+    font-size: 14px;
+}
+
+
 /* ID's */
 
 #state {
@@ -95,12 +111,12 @@ textarea {
 
 #zip {
     width: 50%;
-    height: 40px;
+    height: 50px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid #f6cd61;
     background: #f4f0f0;
 }
-}
+
 
 select::after {
     content: "url(img/arrow.svg";
@@ -110,3 +126,22 @@ select::after {
 }
 
 
+input::-webkit-input-placeholder {
+    text-align: right;
+}
+  input:-moz-placeholder {
+    text-align: right;
+}
+  input::-moz-placeholder {
+    text-align: right;
+}
+  input:-ms-input-placeholder {
+    text-align: right;
+}
+
+
+  @media (min-width: 768px) {
+    body {
+        margin: 0 3em;
+    }
+}
