@@ -153,9 +153,16 @@ input::-webkit-input-placeholder {
     .divide {
         display: flex;
         padding: .4em;
+        justify-content: flex-start;
     }
 
     label {
         flex: 1;
+    }
+    .field-one:focus {
+        background-color: rgb(214, 214, 214);
+    }
+    #zip {
+       flex: .5;
     }
 }
